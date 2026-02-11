@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushvinder Singh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 3D Background (starts behind hero, fades by end of scroll) -->
+    <div id="canvas-3d-background" aria-hidden="true"></div>
+    <!-- Gradient Background Orbs -->
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="ks%20cv.pdf" target="_blank" rel="noopener noreferrer" class="cv-download">Download CV</a></li>
+                <li><button class="theme-toggle" id="themeToggle">🌙 Dark</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Kushvinder Singh</h1>
+        <p class="subtitle">AI &amp; ML Enthusiast | Data Analytics | Python Developer | NLP &amp; Predictive Modeling</p>
+        <p>Building intelligent solutions with Python, machine learning, and data-driven insights. MCA in AI &amp; ML from LPU.</p>
+        <div class="hero-ctas">
+            <a href="#contact" class="cta-button">Get In Touch</a>
+            <a href="ks%20cv.pdf" target="_blank" rel="noopener noreferrer" class="cta-button cta-outline">Download CV</a>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <div class="education-icon">🎓</div>
+                <h3>Master of Computer Application in AI &amp; ML</h3>
+                <p class="education-school">Lovely Professional University, Phagwara, Punjab</p>
+                <p class="education-meta">CGPA: 8.22 | Aug’ 24 – Present</p>
+                <p class="education-desc">Postgraduate focus on Artificial Intelligence, Machine Learning, and advanced data science.</p>
+            </div>
+            <div class="education-card">
+                <div class="education-icon">🎓</div>
+                <h3>Bachelor of Computer Application</h3>
+                <p class="education-school">Hindu Institute of Management and Technology, Rohtak, Haryana</p>
+                <p class="education-meta">CGPA: 7.46 | Jul’ 21 – Jul’ 24</p>
+                <p class="education-desc">Foundation in computer applications and software development.</p>
+            </div>
+            <div class="education-card">
+                <div class="education-icon">📚</div>
+                <h3>Intermediate</h3>
+                <p class="education-school">Sheetal Sports Sr Sec School, Rohtak, Haryana</p>
+                <p class="education-meta">79.7% | Apr’ 20 – Mar’ 21</p>
+                <p class="education-desc">Higher secondary education.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>
+                I’m Kushvinder Singh, pursuing MCA in AI &amp; ML at Lovely Professional University. I focus on building intelligent solutions with <strong>Python</strong>, <strong>machine learning</strong>, and <strong>data analytics</strong>—from CNN-based medical image detection (e.g. TB) and NLP-powered assistants like JARVIS to predictive models (e.g. breast cancer) and full-stack apps (React, Django, SQL).
+
+                I use <strong>Jupyter Notebook</strong>, <strong>SQL Server</strong>, <strong>IBM Cognos Analytics</strong>, and <strong>Excel</strong> for data visualization and reporting, and I enjoy turning raw data into actionable insights. I bring strong <strong>decision-making</strong>, <strong>teamwork</strong>, <strong>strategic thinking</strong>, and <strong>team leadership</strong> to projects and hackathons—including Hack AI Hack-a-thon (Vicky Bytes) and Team Leader at GfG Hackathon 1.0.
+
+                I’m always eager to learn, collaborate, and contribute to meaningful, data-driven solutions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <ul class="skill-list">
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools &amp; Platforms</h3>
+                <ul class="skill-list">
+                    <li>Jupyter Notebook</li>
+                    <li>SQL Server</li>
+                    <li>IBM Cognos Analytics</li>
+                    <li>Microsoft Excel</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>AI / ML &amp; Data</h3>
+                <ul class="skill-list">
+                    <li>Pandas, NumPy, Matplotlib, Seaborn</li>
+                    <li>Scikit-learn, CNN</li>
+                    <li>NLP &amp; Data Analysis</li>
+                    <li>React, Django, SQL</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Soft Skills</h3>
+                <ul class="skill-list">
+                    <li>Decision-Making</li>
+                    <li>Teamwork</li>
+                    <li>Strategic Thinking</li>
+                    <li>Logical Reasoning</li>
+                    <li>Team Leadership</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">🩺</div>
+                <div class="project-content">
+                    <h3>AI-Based Tuberculosis Image Detection</h3>
+                    <p>Predictive analytics project (Feb–Mar’25): normalized chest X-ray datasets for feature extraction and noise reduction. Trained a CNN achieving 92% accuracy in TB detection, performed data analysis on imaging patterns to improve diagnostic reliability, and built a React web interface for easy model interaction.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">CNN</span>
+                        <span class="tech-tag">NumPy</span>
+                        <span class="tech-tag">React</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://surl.lu/rsaydg" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🤖</div>
+                <div class="project-content">
+                    <h3>JARVIS: AI-Powered Virtual Assistant</h3>
+                    <p>Data processing &amp; NLP project (Apr–May’25): built a Python-based assistant for processing queries and automating tasks. Integrated NLP for intent classification and data extraction from APIs (weather, news, reminders). Logged and analyzed user interaction data to generate usage reports and patterns.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Pandas</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://Ai.lu" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">📊</div>
+                <div class="project-content">
+                    <h3>Breast Cancer Prediction</h3>
+                    <p>AI-based predictive modeling (Nov–Dec’24): trained an ML model using Logistic Regression on diagnostic data. Preprocessed the dataset (missing values, normalization, feature selection), achieved 90% accuracy through feature engineering and cross-validation for reliable predictions.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Seaborn</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://pred.lu" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">⏳</div>
+                <div class="project-content">
+                    <h3>Time Capsule</h3>
+                    <p>Web &amp; data management project (Mar–Apr’25): designed a web app for storing messages, files, and notes to be unlocked at a future date. Implemented SQL schemas for time-based storage and retrieval, secure authentication and encryption, and a React + Django interface with basic analytics for user activity.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">SQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://Time.lu" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="certificates-list">
+            <div class="cert-item">Data Visualization | IBM — Nov’ 24</div>
+            <div class="cert-item">Data Fundamentals | IBM — Oct’ 24</div>
+            <div class="cert-item">Crash Course on Data Science | Internshala — Oct’ 24</div>
+            <div class="cert-item">Programming in Python | Internshala — Dec’ 24</div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <div class="achievements-list">
+            <div class="achievement-item">🏆 Hack AI Hack-a-thon | Vicky Bytes — Feb’ 25</div>
+            <div class="achievement-item">🏆 Hack-a-thon 1.0 Qualification | AIESEC — Sep’ 24</div>
+            <div class="achievement-item">🏆 Team Leader Hackathon 1.0 | GeeksforGeeks — Sep’ 24</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>📧 singhkushvinder112@gmail.com</p>
+                <p>📱 +91 9350876808</p>
+                <div class="social-links">
+                    <a href="https://github.com/kushvinder-singh1" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub</a>
+                    <a href="https://www.linkedin.com/in/kushvinder-singh1" target="_blank" rel="noopener noreferrer" title="LinkedIn">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Kushvinder Singh — Portfolio. Designed with passion and creativity.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="background-3d.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
